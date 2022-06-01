@@ -1,0 +1,16 @@
+{
+  "name": "kitchensink",
+  "version": "0.0.0",
+  "description": "A kitchen-sink LINE bot example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "ngrok": "^4.3.1"
+  }
+}
